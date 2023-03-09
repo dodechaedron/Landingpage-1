@@ -1,7 +1,7 @@
 import CardMedia from "@material-ui/core/CardMedia";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import React from "react";
-import tokenomics_back from "../../assets/tokenomics_back.png";
+import tokenomics_back from "../../assets/tokenomic.png";
 
 const useStyles = makeStyles((theme) => ({
   background: {
@@ -129,7 +129,7 @@ const Tokenomics = () => {
                 {" "}
                 <img
                   className={classes.image}
-                  src="images/supply_new.png"
+                  src="images/tokenomic.png"
                   alt="tokenomics"
                 />{" "}
               </div>

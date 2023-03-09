@@ -1,7 +1,7 @@
 import { Typography } from '@material-ui/core';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import React from 'react';
-import war3 from '../../assets/Character1.png';
+import war3 from '../../assets/mascot.png';
 
 const useStyles = makeStyles((theme) => ({
   background: {

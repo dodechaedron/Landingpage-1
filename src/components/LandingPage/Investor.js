@@ -45,17 +45,28 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
 
+
   imageWrapper: {
-    padding: 10,
-    height: "70px",
+    height: "65px",
     [theme.breakpoints.down("md")]: {
       height: "45px",
-      padding: 15,
+      padding: 5,
+      paddingLeft: 2,
+      paddingRight: 2,
     },
   },
+
+  // imageWrapper: {
+  //   padding: 10,
+  //   height: "65px",
+  //   [theme.breakpoints.down("md")]: {
+  //     height: "45px",
+  //     padding: 15,
+  //   },
+  // },
   imageWrapperDotOracle: {
     padding: 2,
-    height: "45px",
+    height: "65px",
     [theme.breakpoints.down("md")]: {
       height: "45px",
       padding: 5,
@@ -63,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imageWrapperMetis: {
     padding: 2,
-    height: "45px",
+    height: "65px",
     width: "fit-content",
     [theme.breakpoints.down("md")]: {
       padding: 2,
@@ -73,7 +84,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   imageWrapperMeland: {
-    height: "70px",
+    height: "65px",
 
     [theme.breakpoints.down("md")]: {
       height: "60px",
@@ -82,7 +93,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imageWrapperUnifarm: {
     padding: 10,
-    height: "50px",
+    height: "65px",
     [theme.breakpoints.down("md")]: {
       height: "45px",
       padding: 10,
@@ -90,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imageWrapperKitsumon: {
     padding: 2,
-    height: "55px",
+    height: "65px",
     width: "fit-content",
     [theme.breakpoints.down("md")]: {
       padding: 2,
@@ -100,7 +111,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imageWizarre: {
     padding: 5,
-    height: "55px",
+    height: "65px",
     width: "fit-content",
     [theme.breakpoints.down("md")]: {
       padding: 2,
@@ -110,7 +121,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   imageWrapperBMW: {
-    height: "48px",
+    height: "65px",
     [theme.breakpoints.down("md")]: {
       height: "45px",
       padding: 5,
@@ -225,7 +236,7 @@ const Investor = () => {
               <div>
               <a className={classes.listItem} href="https://dxsale.app/">
                   <img
-                    src="assets/dxsale.png"
+                    src="assets/DXSALE.png"
                     alt="logo"
                     className={classes.imageWrapperBMW}
                   />

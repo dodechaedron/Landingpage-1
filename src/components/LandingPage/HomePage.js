@@ -1,5 +1,5 @@
 import React from "react";
-import headerRight from "../../assets/Character.png";
+import headerRight from "../../assets/character-1.png";
 import { makeStyles, Button, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({

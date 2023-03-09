@@ -107,12 +107,21 @@ const Footer = () => {
 								</a>
 							</Tooltip>
 						</div>
+						<div className={classes.iconWrapper}>
+							<Tooltip title="Telegram">
+								<a href="https://t.me/bullcoreglobal">
+									<IconButton aria-label="Telegram" className={classes.iconButton}>
+										<Telegram className={classes.icon} />
+									</IconButton>
+								</a>
+							</Tooltip>
+						</div>
 
 					</div>
 
 					<div className="text-center" style={{ marginTop: 100 }}>
 						<div>
-							<img src="assets/logo-bullcore-new.png" alt="logo" height="80px" />
+							<img src="assets/logo-bullcore-down.png" alt="logo" height="50px" />
 						</div>
 						<p className={classes.para}>
 							Copyright 2023 <span className={classes.highlight}>Bullcore</span>. All Rights Reserved.

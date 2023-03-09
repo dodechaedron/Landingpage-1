@@ -1,10 +1,10 @@
 import { Avatar, IconButton, makeStyles } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
-import research from "../../assets/research.png";
-import farming from "../../assets/farming.png";
+import research from "../../assets/launch.png";
+import farming from "../../assets/launch.png";
 import launch from "../../assets/launch.png";
-import tokenomics from "../../assets/tokenomics.png";
-import chain from "../../assets/chain.png";
+import tokenomics from "../../assets/launch.png";
+import chain from "../../assets/launch.png";
 
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
@@ -21,7 +21,7 @@ const getStepsData = () => {
         "Airdrop Community",
       ],
       completed: true,
-      icon: research,
+      icon: launch,
     },
     {
       id: "2",
@@ -34,7 +34,7 @@ const getStepsData = () => {
         "Whitepaper v1 & Upgrade website",
       ],
       completed: true,
-      icon: tokenomics,
+      icon: launch,
     },
     {
       id: "3",
@@ -45,7 +45,7 @@ const getStepsData = () => {
         "Expand Media Social & Partnership",
         "CoinMarketCap & Coingenko Listing" ],
       completed: true,
-      icon: farming,
+      icon: launch,
     },
     {
       id: "4",
@@ -54,6 +54,7 @@ const getStepsData = () => {
       subheadings: [
         "Airdrop NFT Campaign",
         "Bullcore NFT Launch",
+        "Launch Bullcore NFT Game x MemeRoyale BSC",
       ],
       completed: true,
       icon: launch,
@@ -67,7 +68,7 @@ const getStepsData = () => {
         "Launch Bull Raffle",
       ],
       completed: false,
-      icon: chain,
+      icon: launch,
     },
     {
       id: "6",
@@ -78,7 +79,7 @@ const getStepsData = () => {
         "Launchpad BullPad Release",
       ],
       completed: false,
-      icon: chain,
+      icon: launch,
     },
   ];
 };
